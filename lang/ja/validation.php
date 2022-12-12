@@ -42,6 +42,7 @@ return [
     'digits_between'       => ':attributeは、:min桁から:max桁にしてください。',
     'dimensions'           => ':attributeの画像サイズが無効です',
     'distinct'             => ':attributeの値が重複しています。',
+    'due_date.after_or_equal' => ':attribute には今日以降の日付を入力してください。',
     'email'                => ':attributeは、有効なメールアドレス形式で指定してください。',
     'ends_with'            => ':attributeは、次のうちのいずれかで終わらなければなりません。: :values',
     'enum'                 => '選択した :attributeは 無効です。',
@@ -135,6 +136,7 @@ return [
         
     ],
     'attributes' => [
-        'title' => 'タイトル'
+        'title' => 'タイトル',
+        'due_date' => '期限日'
     ],
 ];
